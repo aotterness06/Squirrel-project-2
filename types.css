@@ -1,11 +1,14 @@
 h4 {
     margin: 15px 15px 15px 15px;
     text-align: left;
+    font-family: "American Typewriter", "Gill Sans", "Times New Roman", Times, serif;
+    color: #99582a;
 }
 
-h2, h1, h4 {
+h2, h1, h3 {
     text-align: center;
     font-family: "American Typewriter", "Gill Sans", "Times New Roman", Times, serif;
+    color: #99582a;
 }
 
 p {
