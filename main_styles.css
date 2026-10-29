@@ -1,0 +1,41 @@
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Gill Sans", "Times New Roman", Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    section.header {
+        background-color: #FFFFFF;
+        text-align: center;
+        text-decoration-color: #52240F;
+
+        p {
+            margin: 0 35px 25px 35px;
+        }
+    }
+
+    section.content {
+        display: flex;
+        gap: 20px;
+
+        aside {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            align-items: center;
+
+            img {
+                width: 60%;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .footer {
+        text-align: center;
+        justify-content: flex-end;
+    }
+}
